@@ -1,101 +1,106 @@
-:root {
-    --dark-blue: #13293d;
-    --white: #fff;
+* {
+    box-sizing: border-box;
   }
-  
   
   body {
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: flex-start;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-  }
-  
-  h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    font-family: Arial;
+    margin: 0;
   }
   
   header {
     padding: 40px;
     text-align: center;
-    background-color: var(--dark-blue);
-    color: var(--white);
+    background: #13293d;
+    color: #fff;
   }
   
+  /* 
+  What happens when we set the display property to flex? 
+  TODO: Write your answer here 
+  */
   nav {
     display: flex;
     background-color: #d8a47f;
   }
   
   nav a {
-    color: var(--navlink-color);
+    color: #13293d;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
   }
   
-  nav a:hover {
-    background-color: #fff;
-  }
-  
+  /* 
+  What is the flex-wrap property? 
+  TODO: Write your answer here 
+  */
   main {
     display: flex;
     flex-wrap: wrap;
   }
   
+  aside {
+    flex: 1;
+    background-color: #b9c6ae;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  
   footer {
-    width: 100%;
-    bottom: 0;
     padding: 20px;
     text-align: center;
-    background:  var(--dark-blue);
+    background: #13293d;
     color: #fff;
-    margin-top: auto;
   }
   
+  /* 
+  What does the justify-content property do? 
+  TODO: Write your answer here 
+  */
   .products {
-    flex: 1;
+    flex: 4;
     background-color: #fff;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   
+  /* 
+  What is the flex property a shorthand property for?
+  What is it doing here? 
+  TODO: Write your answer here 
+  */
   .card {
     border-style: solid;
     border-width: 1px;
-    border-radius: 50px;
+    border-radius: 10px;
     padding: 10px;
-    flex: 0 0 300px;
-    transform: rotate(8deg);
-    box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 20px;
+    flex: 0 0 400px;
   }
   
-  .card > header {
-    border-radius: 50px 50px 0px 0px;
+  .card header {
     padding: 20px;
   }
   
-  .card > p {
+  .card p {
     text-align: center;
   }
   
-  .card > img {
+  .card img {
     width: 100%;
   }
   
+  /* 
+  What does the flex-direction property define?
+  What is it doing here? 
+  TODO: Write your answer here 
+  */
   @media screen and (max-width: 768px) {
     main,
     nav {
       flex-direction: column;
     }
   }
+  
