@@ -41,7 +41,7 @@
   }
   
   .products {
-    flex: 4;
+    flex: 5;
     background-color: #fff;
     padding: 20px;
     display: flex;
