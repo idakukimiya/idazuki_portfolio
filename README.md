@@ -12,6 +12,10 @@ This challenge made me understand the process of making a website.
 * Create structure for the website with .html.
 * Create a stylesheet.  
 
+Deployed URL: https://idakukimiya.github.io/idazuki_portfolio/
+
+GitHub URL: https://github.com/idakukimiya/idazuki_portfolio
+
 
 ## Usage
 
