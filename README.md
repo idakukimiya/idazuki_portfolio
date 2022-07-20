@@ -6,8 +6,12 @@ The purpose of this challenge is to create a Portfolio website to present to fut
 
 The goal of the challenge is for us to create a website from scatch. We would have to create a wireframe of how we want the website to look like. Afterward to create html to have sturture, then css to present/style the website accordingly. 
 
-This challenge made me understand that 
-- What did you learn?
+This challenge made me understand the process of making a website. 
+* Organizing my thoughts. 
+* Have an idea of what the website should look like.
+* Create structure for the website with .html.
+* Create a stylesheet.  
+
 
 ## Usage
 
