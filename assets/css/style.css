@@ -9,10 +9,15 @@ body {
 
 header {
   padding: 5%;
-  text-align: center;
   background: rgb(60, 113, 126);
   color: beige;
   font-size: 50px;
+  display: flex;
+}
+
+img {
+  width: 20%;
+  height: auto;
 }
 
 nav {
@@ -22,6 +27,11 @@ nav {
 
 nav a {
   color: beige;
-  padding: 14px 20px;
+  padding: 14px 50px;
   text-decoration-line: underline;
+}
+aside {
+  font-size: 20px;
+  color: rgb(60, 113, 126);
+  margin-left: 10%;
 }
