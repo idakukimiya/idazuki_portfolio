@@ -30,8 +30,13 @@ nav a {
 }
 aside {
   font-size: 20px;
-  color: rgb(60, 113, 126);
+  color: goldenrod;
   margin-left: 10%;
+}
+
+aside p {
+  flex-wrap: wrap;
+  color:rgb(59, 62, 63);
 }
 
 div header {
