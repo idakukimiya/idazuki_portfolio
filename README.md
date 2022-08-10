@@ -1,24 +1,48 @@
-# Ida Kukimiya Portfolio
+# Ida's Portfolio
+
+## Table of Contents
+
+-[Description]
+-[Links]
+-[Usage]
+-[Photos of Mockup]
 
 ## Description
 
-The purpose of this challenge is to create a Portfolio website to present to future Employer. The motivation of the challenge was to make the portfolio look similar to the demo provide. This is motivation because it challenge what we learn plus make us do our own research on parts that we don't understand.
+The motivation of this project is to create a portfolio to showcase your skills and talents to potential employers.
 
-The goal of the challenge is for us to create a website from scatch. We would have to create a wireframe of how we want the website to look like. Afterward to create html to have sturture, then css to present/style the website accordingly. 
+I used what was taught in the first two weeks of bootcamp to write HTML and CSS from scratch.
 
-This challenge made me understand the process of making a website. 
-* Organizing my thoughts. 
-* Have an idea of what the website should look like.
-* Create structure for the website with .html.
-* Create a stylesheet.  
+## Links
 
-Deployed URL: https://idakukimiya.github.io/idazuki_portfolio/
+Deployed URL: "https://idakukimiya.github.io/idazuki_portfolio/"
 
-GitHub URL: https://github.com/idakukimiya/idazuki_portfolio
-
+GitHub URL: "https://github.com/idakukimiya/idazuki_portfolio"
 
 ## Usage
 
-add screenshot
-create an "assets/images"
-(assets/images/screenshot.png)
+* Sample a potential employee's previous work
+
+* Load their portfolio
+
+* Presented with the developer's name, recent photo or avatar, and links to sections about them, their work, and how to contact them
+
+* Able to click one of the links in the navigation
+
+* Then the UI scrolls to the corresponding section
+
+* Able to click on the link to the section about their work
+
+* Then the UI scrolls to a section with titled images of the developer's applications
+
+* Presented with the developer's first application, application's image should be larger in size than the others
+
+* Able to click on the images of the application, taken to that deployed application
+
+* Able to resize the page or view the site on various screens and devices
+
+* Presented with a responsive layout that adapts to any viewport
+
+## Photos of Mockup
+
+![alt text]()
