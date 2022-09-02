@@ -1,48 +1,82 @@
-# Ida's Portfolio
+# artisanShadow
 
-## Table of Contents
+## Table of Content
 
--[Description]
--[Links]
--[Usage]
--[Photos of Mockup]
+-[Descripton](#description)
+
+-[Usage](#usage)
+
+-[Screenshot](#screenshot)
+
+-[Link to Demo](#link-to-demo)
+
+-[Tests](#tests)
+
+-[Questions](#questions)
 
 ## Description
 
-The motivation of this project is to create a portfolio to showcase your skills and talents to potential employers.
+This project was created to demonstrate the using Node.js, Inquirer, and MySQL building a command-line application to manage a company's employee database.
 
-I used what was taught in the first two weeks of bootcamp to write HTML and CSS from scratch.
-
-## Links
-
-Deployed URL: "https://idakukimiya.github.io/idazuki_portfolio/"
-
-GitHub URL: "https://github.com/idakukimiya/idazuki_portfolio"
+For a business: Should be able to view and manage the departments, roles, and employees in the company.
 
 ## Usage
 
-* Sample a potential employee's previous work
+* GIVEN a command-line application that accepts user input
 
-* Load their portfolio
+* WHEN I start the application
 
-* Presented with the developer's name, recent photo or avatar, and links to sections about them, their work, and how to contact them
+* THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
 
-* Able to click one of the links in the navigation
+* WHEN I choose to view all departments
 
-* Then the UI scrolls to the corresponding section
+* THEN I am presented with a formatted table showing department names and department ids
 
-* Able to click on the link to the section about their work
+* WHEN I choose to view all roles
 
-* Then the UI scrolls to a section with titled images of the developer's applications
+* THEN I am presented with the job title, role id, the department that role belongs to, and the salary for that role
 
-* Presented with the developer's first application, application's image should be larger in size than the others
+* WHEN I choose to view all employees
 
-* Able to click on the images of the application, taken to that deployed application
+* THEN I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to
 
-* Able to resize the page or view the site on various screens and devices
+* WHEN I choose to add a department
 
-* Presented with a responsive layout that adapts to any viewport
+* THEN I am prompted to enter the name of the department and that department is added to the database
 
-## Photos of Mockup
+* WHEN I choose to add a role
 
-![alt text]()
+* THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database
+
+* WHEN I choose to add an employee
+
+* THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
+
+* WHEN I choose to update an employee role
+
+* THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+
+## Screenshot
+
+![screenshot of project](./assets/image/Picture1.png)
+
+## Link to Demo
+
+[DEMO](https://drive.google.com/file/d/19hDXqvLaWoxErwre1oTdz-linrM3_gR5/view)
+
+[GitHub URL](https://github.com/idakukimiya/artisanShadow)
+
+![Gif of Demo](./assets/GIF/artisanShadow.gif)
+
+## Tests
+
+Run 'npm server.js' to run the app.
+
+## Questions
+
+  Please contact me using the following links:
+
+  [GitHub](https://github.com/https://github.com/idakukimiya)
+
+  [Email: kukimiya.ida@gmail.com](mailto:kukimiya.ida@gmail.com)
+  
