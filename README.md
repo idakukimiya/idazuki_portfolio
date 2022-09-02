@@ -1,76 +1,58 @@
-# artisanShadow
+# idazuki_portfolio
 
 ## Table of Content
 
--[Descripton](#description)
+[Descripton](#description)
 
--[Usage](#usage)
+[User Story](#user-story)
 
--[Screenshot](#screenshot)
+[Acceptance Criteria](#acceptance-criteria)
 
--[Link to Demo](#link-to-demo)
+[Screenshot](#screenshot)
 
--[Tests](#tests)
+[Links to Portfolio](#links-to-portfolio)
 
--[Questions](#questions)
+[Questions](#questions)
 
 ## Description
 
-This project was created to demonstrate the using Node.js, Inquirer, and MySQL building a command-line application to manage a company's employee database.
+This project was created to for us to build a portfolio page, which can be updated as our progresses in the course. A portfolio is a showcase of your skills and talents for employers looking to fill position in their company.
 
-For a business: Should be able to view and manage the departments, roles, and employees in the company.
+## User Story
 
-## Usage
+```md
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+```
 
-* GIVEN a command-line application that accepts user input
+## Acceptance Criteria
 
-* WHEN I start the application
-
-* THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
-
-* WHEN I choose to view all departments
-
-* THEN I am presented with a formatted table showing department names and department ids
-
-* WHEN I choose to view all roles
-
-* THEN I am presented with the job title, role id, the department that role belongs to, and the salary for that role
-
-* WHEN I choose to view all employees
-
-* THEN I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to
-
-* WHEN I choose to add a department
-
-* THEN I am prompted to enter the name of the department and that department is added to the database
-
-* WHEN I choose to add a role
-
-* THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database
-
-* WHEN I choose to add an employee
-
-* THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
-
-* WHEN I choose to update an employee role
-
-* THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+```md
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+```
 
 ## Screenshot
 
 ![screenshot of project](./assets/image/Picture1.png)
 
-## Link to Demo
+## Links to Portfolio
 
-[DEMO](https://drive.google.com/file/d/19hDXqvLaWoxErwre1oTdz-linrM3_gR5/view)
+[Deployed URL]('!')
 
-[GitHub URL](https://github.com/idakukimiya/artisanShadow)
-
-![Gif of Demo](./assets/GIF/artisanShadow.gif)
-
-## Tests
-
-Run 'npm server.js' to run the app.
+[GitHub URL](https://github.com/idakukimiya/idazuki_portfolio)
 
 ## Questions
 
@@ -79,4 +61,3 @@ Run 'npm server.js' to run the app.
   [GitHub](https://github.com/https://github.com/idakukimiya)
 
   [Email: kukimiya.ida@gmail.com](mailto:kukimiya.ida@gmail.com)
-  
