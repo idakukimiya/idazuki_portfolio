@@ -46,7 +46,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshot
 
-![screenshot of project](./assets/image/Picture1.png)
+![screenshot of project]("!")
 
 ## Links to Portfolio
 
