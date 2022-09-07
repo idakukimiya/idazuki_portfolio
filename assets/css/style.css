@@ -6,11 +6,6 @@
     --light: #fffaf7;
   }
   
-  ::selection {
-    color: var(--brown);
-    background-color: var(--light);
-  }
-  
   .custom-navbar {
     background-color: var(--teal);
   }
@@ -29,15 +24,6 @@
     color: var(--teal);
   }
   
-  .custom-btn {
-    background-color: var(--brown);
-    color: var(--light);
-  }
-  
-  .custom-btn:hover {
-    background-color: var(--tan);
-    color: var(--brown);
-  }
   
   .custom-card {
     border-color: var(--teal);
