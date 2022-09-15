@@ -46,11 +46,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshot
 
-![screenshot of project]("!")
+![screenshot of project](./assets/image/Screenshot1.png)
+
+![screenshot of project](./assets/image/Screenshot2.png)
 
 ## Links to Portfolio
 
-[Deployed URL]('!')
+[Deployed URL](https://idakukimiya.github.io/idazuki_portfolio/)
 
 [GitHub URL](https://github.com/idakukimiya/idazuki_portfolio)
 
