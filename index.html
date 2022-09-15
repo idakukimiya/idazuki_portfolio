@@ -8,6 +8,9 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <!--google font-->
+  <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+  <!--stylesheet-->
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <title>Ida's Portfolio</title>
@@ -22,9 +25,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbar">
       <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link" href="#">About Me</a>
-        <a class="nav-item nav-link" href="#">Work</a>
-        <a class="nav-item nav-link" href="#">Contact Me</a>
+        <a class="nav-item nav-link" href="#about-me">About Me</a>
+        <a class="nav-item nav-link" href="#work">Work</a>
+        <a class="nav-item nav-link" href="#contact-me">Contact Me</a>
         <a class="nav-item nav-link" href="./assets/resume/Ida Kukimiya Resume.pdf">Resume</a>
       </div>
     </div>
@@ -43,55 +46,109 @@
           </p>
           <p>~Napoleon Hill</p>
         </div>
-      </section>       
+  </section>
 
- <section class="jumbotron jumbotron-fluid custom-jumbotron">
-    <div class="container">
-      
-      <div class="media">
-        <h2>About Me</h2>
+  <section class="jumbotron jumbotron-fluid custom-jumbotron">
+    <div class="container">  
 
-        <div class="media-body">
+      <div id="about-me" class="about-me">
+        <div class="media">
+          <h2>About Me</h2>
+  
+          <div class="media-body">
+
+            <div class="container text-left">
+              <div class="row">
+                <div class="col">
+              Kon'nichiwa, my name is Ida Kukimiya, I am an aspiring fullstack web developer, currently attending the
+              UPENN LPS Coding Bootcamp.
+              Once I am in the industry, my future development is to contiune my education in Computer Science. I am
+              interested in one day developing my own game or get into cyber security.
           
-          Hello
         </div>
       </div>
     </div>
-    </section>
+  </section>
 
-    <section class="jumbotron jumbotron-fluid custom-jumbotron">
-      <div class="container">
-        
-        <div class="media">
-          <h2>Work</h2>
-  
-          <div class="media-body">
-            
-            <div class="card mb-3">
-              <img src="./assets/image/project1.png" class="card-img-top" alt="Group Project 1">
-              <div class="card-body">
-                <h5 class="card-title">GitThatCurency3</h5>
-                <p class="card-text">The goal of the project was to use IP API that can pull the user's current IP address and allow the user to access different country options through a dropdown menu.</p>
-                <a href="https://github.com/idakukimiya/GitThatCurrency3" class="btn btn-primary">Project GitHub</a>
+  <section class="jumbotron jumbotron-fluid custom-jumbotron">
+    <div class="container">
+
+<div id="work" class="work">
+      <div class="media">
+        <h2>Work</h2>
+        <div class="media-body">
+
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/image/project1.png" class="card-img-top" alt="Project1">
+                  <div class="card-body">
+                    <h5 class="card-title">Git That Currency</h5>
+                    <p2 class="card-text">The goal of this group project was to use IP API that can pull the user's current IP address and allow the user to access different country options through a dropdown menu.</p2>
+                    <a href="https://github.com/idakukimiya/GitThatCurrency3" class="btn btn-warning">More Info</a>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <img src="./assets/image/project2.png" class="card-img-bottom" alt="Group Project 2">
-              <div class="card-body">
-                <h5 class="card-title">arthub</h5>
-                <p class="card-text">The goal of the project was to create an interactive platform for artists to be able to communicate and collaborate on different projects in one place.</p>
-                <a href="#" class="btn btn-primary">Project GitHub</a>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/image/project2.png" class="card-img-top" alt="Project2">
+                  <div class="card-body">
+                    <h5 class="card-title">arthub</h5>
+                    <p2 class="card-text">The goal of this group project was to create an interactive platform for artists to be able to communicate and collaborate on different project in one place.</p2>
+                    <a href="https://github.com/idakukimiya/arthub" class="btn btn-warning">More Info</a>
+                  </div>
+                </div>
               </div>
-              
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/image/coming_soon.jpg" class="card-img-top" alt="Project3">
+                  <div class="card-body">
+                    <h5 class="card-title">Coming soon!</h5>
+                    <p2 class="card-text">Project3.</p2>
+                    <a href="#" class="btn btn-warning">More Info</a>
+                  </div>
+                </div>
+              </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      </section>
+         
+    </div>
+  </section>
+
+  <section class="jumbotron jumbotron-fluid custom-jumbotron">
+    <div class="container">  
+
+      <div id="contact-me" class="contact-me">
+        <div class="media">
+          <h2>Contact Me</h2>
+          <div class="media-body">
+      
+          <div class="container text-center">
+            <div class="row ">
+              <div class="col">
+                <a href="kukimiya.ida@gmail.com">kukimiya.ida@gmail.com</a>
+              </div>
+              <div class="col">
+                <a href="https://www.linkedin.com/in/idakukimiya/">Linkedin</a>
+              </div>
+              <div class="col">
+                <a href="https://github.com/idakukimiya">GitHub</a>
+              </div>
+              <div class="col">
+                <a href="tel: 267.499.3965">267.499.3965</a>
+              </div>
+            </div>
+          </div>    
+              </div>
+        
+            
+  </footer>
+</section>
 
 
-       
-        <!--jQuery and Bootstrap Bundle-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!--jQuery and Bootstrap Bundle-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>

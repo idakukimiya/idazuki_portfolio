@@ -1,18 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: 'Ms Madi', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p2 {
+  color: var(--teal)
+}
+
+h5 {
+  color: var(--teal)
+}
+
+
+
 :root {
     --brown: #a88f82;
     --tan: #f5e1d5;
     --teal: #71a8a7;
     --lightteal: #d5f5f5;
     --light: #fffaf7;
+    --lightgray: lightgrey;
   }
   
   .custom-navbar {
-    background-color: var(--teal);
+    background-color: var(--tan);
   }
   
   .custom-navbar a {
     font-size: 1.5rem;
-    color: var(--lightteal);
+    color: var(--teal);
   }
   
   .custom-navbar a:hover {
@@ -20,7 +43,8 @@
   }
   
   .custom-jumbotron {
-    background-color: var(--lightteal);
-    color: var(--teal);
+    background-color: var(--teal);
+    color: var(--light);
   }
+
   
